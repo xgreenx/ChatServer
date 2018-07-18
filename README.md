@@ -4,10 +4,14 @@ Before usage you need to install 'libevent'.
 Ubuntu:
 sudo apt-get install libevent-dev
 
-Run:
+Run Server:
 make && ./make <port>
 
 default port is 2283
+
+To connect you can use telnet localhost <port>:
+
+telnet localhost 2283
 
 
 Server supports commands:
